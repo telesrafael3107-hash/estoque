@@ -1,0 +1,24 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@fastify/cors": "^11.2.0",
+    "@neondatabase/serverless": "^1.1.0",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "fastify": "^5.8.5",
+    "json-server": "^1.0.0-beta.15",
+    "node": "^22.22.3",
+    "postgres": "^3.4.9"
+  }
+}
